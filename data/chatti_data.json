@@ -1,0 +1,625 @@
+{
+  "users": [
+    {
+      "id": "user_guhan",
+      "name": "Guhan",
+      "avatar": "G",
+      "role": "Product Lead",
+      "status": "online"
+    },
+    {
+      "id": "user_rahul",
+      "name": "Rahul",
+      "avatar": "R",
+      "role": "Tech Lead",
+      "status": "online"
+    },
+    {
+      "id": "user_ananya",
+      "name": "Ananya",
+      "avatar": "A",
+      "role": "Design Lead",
+      "status": "online"
+    },
+    {
+      "id": "user_priya",
+      "name": "Priya",
+      "avatar": "P",
+      "role": "Frontend Dev",
+      "status": "offline"
+    },
+    {
+      "id": "user_arjun",
+      "name": "Arjun",
+      "avatar": "AR",
+      "role": "Backend Dev",
+      "status": "offline"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_alpha",
+      "name": "Project Alpha",
+      "type": "group",
+      "badge": "Sprint 4"
+    },
+    {
+      "id": "conv_rahul",
+      "name": "Rahul",
+      "type": "direct",
+      "badge": "Direct"
+    },
+    {
+      "id": "conv_ananya",
+      "name": "Ananya",
+      "type": "direct",
+      "badge": "Direct"
+    },
+    {
+      "id": "conv_nexus",
+      "name": "Team Nexus",
+      "type": "community",
+      "badge": "Engineering"
+    }
+  ],
+  "members": [
+    {
+      "conversation_id": "conv_alpha",
+      "user_id": "user_guhan"
+    },
+    {
+      "conversation_id": "conv_alpha",
+      "user_id": "user_rahul"
+    },
+    {
+      "conversation_id": "conv_alpha",
+      "user_id": "user_ananya"
+    },
+    {
+      "conversation_id": "conv_alpha",
+      "user_id": "user_priya"
+    },
+    {
+      "conversation_id": "conv_alpha",
+      "user_id": "user_arjun"
+    },
+    {
+      "conversation_id": "conv_rahul",
+      "user_id": "user_guhan"
+    },
+    {
+      "conversation_id": "conv_rahul",
+      "user_id": "user_rahul"
+    },
+    {
+      "conversation_id": "conv_ananya",
+      "user_id": "user_guhan"
+    },
+    {
+      "conversation_id": "conv_ananya",
+      "user_id": "user_ananya"
+    },
+    {
+      "conversation_id": "conv_nexus",
+      "user_id": "user_guhan"
+    },
+    {
+      "conversation_id": "conv_nexus",
+      "user_id": "user_rahul"
+    },
+    {
+      "conversation_id": "conv_nexus",
+      "user_id": "user_arjun"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_init_1",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Should we submit the project today?",
+      "message_type": "text",
+      "created_at": "2026-10-07T07:12:54.828Z"
+    },
+    {
+      "id": "msg_init_2",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_rahul",
+      "content": "I think we should submit today 👍",
+      "message_type": "text",
+      "created_at": "2026-10-07T07:24:54.829Z"
+    },
+    {
+      "id": "msg_init_3",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_ananya",
+      "content": "I'll finish the PPT before 6.",
+      "message_type": "text",
+      "created_at": "2026-10-07T07:42:54.829Z"
+    },
+    {
+      "id": "msg_init_4",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Rahul, can you send the database details?",
+      "message_type": "text",
+      "created_at": "2026-10-07T08:00:54.829Z"
+    },
+    {
+      "id": "msg_1791364851583_0bpxoc",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Rahul, send the PPT before 6 PM.",
+      "message_type": "text",
+      "created_at": "2026-10-07T09:20:51.583Z"
+    },
+    {
+      "id": "msg_1791364868654_cn9zst",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "🔒 Private Whisper for Rahul",
+      "message_type": "whisper",
+      "created_at": "2026-10-07T09:21:08.654Z"
+    },
+    {
+      "id": "msg_1791364903111_58hikd",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Should we submit today?",
+      "message_type": "fuse",
+      "created_at": "2026-10-07T09:21:43.111Z"
+    },
+    {
+      "id": "msg_1791365095801_iq71fb",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "hi guys",
+      "message_type": "text",
+      "created_at": "2026-10-07T09:24:55.801Z"
+    },
+    {
+      "id": "msg_1791365141419_8om6oe",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_rahul",
+      "content": "... what's dude",
+      "message_type": "text",
+      "created_at": "2026-10-07T09:25:41.419Z"
+    },
+    {
+      "id": "msg_1791365213994_tkdj40",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_priya",
+      "content": "🔒 Private Whisper for Arjun",
+      "message_type": "whisper",
+      "created_at": "2026-10-07T09:26:53.994Z"
+    },
+    {
+      "id": "msg_1791365236810_yko0ep",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Rahul, send the PPT before 6 PM.",
+      "message_type": "text",
+      "created_at": "2026-10-07T09:27:16.810Z"
+    },
+    {
+      "id": "msg_1791365240634_nx7lo8",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "🔒 Private Whisper for Rahul",
+      "message_type": "whisper",
+      "created_at": "2026-10-07T09:27:20.634Z"
+    },
+    {
+      "id": "msg_1791365245037_yd19qc",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Should we submit today?",
+      "message_type": "fuse",
+      "created_at": "2026-10-07T09:27:25.037Z"
+    },
+    {
+      "id": "msg_1791365436949_nfogu1",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_guhan",
+      "content": "Tomorrow Bunk?",
+      "message_type": "fuse",
+      "created_at": "2026-10-07T09:30:36.949Z"
+    },
+    {
+      "id": "msg_1791365489751_0f4uic",
+      "conversation_id": "conv_alpha",
+      "sender_id": "user_arjun",
+      "content": "🔒 Private Whisper for Ananya",
+      "message_type": "whisper",
+      "created_at": "2026-10-07T09:31:29.751Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_sample_1",
+      "message_id": "msg_init_3",
+      "assigned_to": "user_ananya",
+      "title": "Finish the PPT deck",
+      "description": "Presentation deck for final evaluation sync and team alignment.",
+      "deadline": "Today, 6:00 PM",
+      "status": "pending",
+      "created_at": "2026-10-07T07:48:54.829Z"
+    },
+    {
+      "id": "task_sample_2",
+      "message_id": null,
+      "assigned_to": "user_rahul",
+      "title": "Review Aiven PostgreSQL schema & indexes",
+      "description": "Ensure SSL connections and verify constraints.",
+      "deadline": "Tomorrow, 12:00 PM",
+      "status": "pending",
+      "created_at": "2026-10-07T05:12:54.829Z"
+    },
+    {
+      "id": "task_1791364860040_bhrss1",
+      "message_id": "msg_1791364851583_0bpxoc",
+      "assigned_to": "user_rahul",
+      "title": "Finish the PPT",
+      "description": "Presentation deck for final evaluation sync",
+      "deadline": "Today, 6:00 PM",
+      "status": "completed",
+      "created_at": "2026-10-07T09:21:00.040Z"
+    },
+    {
+      "id": "task_1791365237743_3kl925",
+      "message_id": "msg_1791365236810_yko0ep",
+      "assigned_to": "user_rahul",
+      "title": "Finish the PPT",
+      "description": "Presentation deck for final evaluation sync and team alignment.",
+      "deadline": "Today, 6:00 PM",
+      "status": "completed",
+      "created_at": "2026-10-07T09:27:17.743Z"
+    }
+  ],
+  "fuses": [
+    {
+      "id": "fuse_1791364903112_atk66a",
+      "message_id": "msg_1791364903111_58hikd",
+      "question": "Should we submit today?",
+      "option_a": "?? Submit Today",
+      "option_b": "?? Tomorrow",
+      "duration_seconds": 10,
+      "expires_at": "2026-10-07T09:21:53.112Z",
+      "status": "locked",
+      "outcome": "?? Submit Today",
+      "created_at": "2026-10-07T09:21:43.112Z"
+    },
+    {
+      "id": "fuse_1791365245039_4ksdzf",
+      "message_id": "msg_1791365245037_yd19qc",
+      "question": "Should we submit today?",
+      "option_a": "👍 Submit Today",
+      "option_b": "👎 Tomorrow",
+      "duration_seconds": 10,
+      "expires_at": "2026-10-07T09:27:35.039Z",
+      "status": "locked",
+      "outcome": "👍 Submit Today",
+      "created_at": "2026-10-07T09:27:25.039Z"
+    },
+    {
+      "id": "fuse_1791365436950_kvc0jo",
+      "message_id": "msg_1791365436949_nfogu1",
+      "question": "Tomorrow Bunk?",
+      "option_a": "ok",
+      "option_b": "nope",
+      "duration_seconds": 30,
+      "expires_at": "2026-10-07T09:31:06.951Z",
+      "status": "locked",
+      "outcome": "ok",
+      "created_at": "2026-10-07T09:30:36.951Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": "vote_1791364903121_hl2xae",
+      "fuse_id": "fuse_1791364903112_atk66a",
+      "user_id": "user_rahul",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:21:43.121Z"
+    },
+    {
+      "id": "vote_1791364903126_t1dkgu",
+      "fuse_id": "fuse_1791364903112_atk66a",
+      "user_id": "user_ananya",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:21:43.126Z"
+    },
+    {
+      "id": "vote_1791365247307_fadyed",
+      "fuse_id": "fuse_1791365245039_4ksdzf",
+      "user_id": "user_rahul",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:27:27.308Z"
+    },
+    {
+      "id": "vote_1791365249510_osbcxx",
+      "fuse_id": "fuse_1791365245039_4ksdzf",
+      "user_id": "user_ananya",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:27:29.510Z"
+    },
+    {
+      "id": "vote_1791365251710_u9hqg8",
+      "fuse_id": "fuse_1791365245039_4ksdzf",
+      "user_id": "user_priya",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:27:31.710Z"
+    },
+    {
+      "id": "vote_1791365440104_qzwss6",
+      "fuse_id": "fuse_1791365436950_kvc0jo",
+      "user_id": "user_guhan",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:30:40.104Z"
+    },
+    {
+      "id": "vote_1791365445481_9niqpb",
+      "fuse_id": "fuse_1791365436950_kvc0jo",
+      "user_id": "user_rahul",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:30:45.481Z"
+    },
+    {
+      "id": "vote_1791365448794_5l95yr",
+      "fuse_id": "fuse_1791365436950_kvc0jo",
+      "user_id": "user_priya",
+      "vote": "option_b",
+      "created_at": "2026-10-07T09:30:48.794Z"
+    },
+    {
+      "id": "vote_1791365451970_xxilre",
+      "fuse_id": "fuse_1791365436950_kvc0jo",
+      "user_id": "user_ananya",
+      "vote": "option_b",
+      "created_at": "2026-10-07T09:30:51.970Z"
+    },
+    {
+      "id": "vote_1791365456420_e4uv4e",
+      "fuse_id": "fuse_1791365436950_kvc0jo",
+      "user_id": "user_arjun",
+      "vote": "option_a",
+      "created_at": "2026-10-07T09:30:56.420Z"
+    }
+  ],
+  "whispers": [
+    {
+      "id": "wh_1791364868655_ro91o9",
+      "message_id": "msg_1791364868654_cn9zst",
+      "sender_id": "user_guhan",
+      "recipient_id": "user_rahul",
+      "content": "Rahul, come 15 minutes early.",
+      "created_at": "2026-10-07T09:21:08.655Z"
+    },
+    {
+      "id": "wh_1791365213997_btdkxl",
+      "message_id": "msg_1791365213994_tkdj40",
+      "sender_id": "user_priya",
+      "recipient_id": "user_arjun",
+      "content": "i am not well",
+      "created_at": "2026-10-07T09:26:53.997Z"
+    },
+    {
+      "id": "wh_1791365240635_7o9qvn",
+      "message_id": "msg_1791365240634_nx7lo8",
+      "sender_id": "user_guhan",
+      "recipient_id": "user_rahul",
+      "content": "Rahul, come 15 minutes early.",
+      "created_at": "2026-10-07T09:27:20.635Z"
+    },
+    {
+      "id": "wh_1791365489752_2mtxzd",
+      "message_id": "msg_1791365489751_0f4uic",
+      "sender_id": "user_arjun",
+      "recipient_id": "user_ananya",
+      "content": "Hi",
+      "created_at": "2026-10-07T09:31:29.752Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_1791365489753_cvu7nz",
+      "user_id": "user_arjun",
+      "type": "whisper",
+      "title": "Arjun sent a private Whisper to Ananya",
+      "detail": "Stealth 1-on-1 encrypted channel within thread",
+      "created_at": "2026-10-07T09:31:29.753Z"
+    },
+    {
+      "id": "act_1791365467288_r8lsvw",
+      "user_id": "system",
+      "type": "decision_locked",
+      "title": "🔥 DECISION LOCKED: ok",
+      "detail": "Consensus reached. Decision permanently locked into record.",
+      "created_at": "2026-10-07T09:31:07.288Z"
+    },
+    {
+      "id": "act_1791365456422_66tdd0",
+      "user_id": "user_arjun",
+      "type": "vote",
+      "title": "Arjun voted on Fuse",
+      "detail": "Voted for ok",
+      "created_at": "2026-10-07T09:30:56.422Z"
+    },
+    {
+      "id": "act_1791365451972_3ur7mx",
+      "user_id": "user_ananya",
+      "type": "vote",
+      "title": "Ananya voted on Fuse",
+      "detail": "Voted for nope",
+      "created_at": "2026-10-07T09:30:51.972Z"
+    },
+    {
+      "id": "act_1791365448796_zdn1dn",
+      "user_id": "user_priya",
+      "type": "vote",
+      "title": "Priya voted on Fuse",
+      "detail": "Voted for nope",
+      "created_at": "2026-10-07T09:30:48.796Z"
+    },
+    {
+      "id": "act_1791365445483_jyn9sn",
+      "user_id": "user_rahul",
+      "type": "vote",
+      "title": "Rahul voted on Fuse",
+      "detail": "Voted for ok",
+      "created_at": "2026-10-07T09:30:45.483Z"
+    },
+    {
+      "id": "act_1791365441875_fmxru1",
+      "user_id": "user_guhan",
+      "type": "vote",
+      "title": "Guhan voted on Fuse",
+      "detail": "Voted for ok",
+      "created_at": "2026-10-07T09:30:41.875Z"
+    },
+    {
+      "id": "act_1791365440106_0ay07b",
+      "user_id": "user_guhan",
+      "type": "vote",
+      "title": "Guhan voted on Fuse",
+      "detail": "Voted for nope",
+      "created_at": "2026-10-07T09:30:40.106Z"
+    },
+    {
+      "id": "act_1791365436951_qe3ti5",
+      "user_id": "user_guhan",
+      "type": "fuse",
+      "title": "🔥 Message Fuse Initialized: Tomorrow Bunk?",
+      "detail": "30s Rapid Consensus Voting Window Open",
+      "created_at": "2026-10-07T09:30:36.951Z"
+    },
+    {
+      "id": "act_1791365267350_p3nf6k",
+      "user_id": "system",
+      "type": "decision_locked",
+      "title": "🔥 DECISION LOCKED: 👍 Submit Today",
+      "detail": "Consensus reached. Decision permanently locked into record.",
+      "created_at": "2026-10-07T09:27:47.350Z"
+    },
+    {
+      "id": "act_1791365251711_2ieo6n",
+      "user_id": "user_priya",
+      "type": "vote",
+      "title": "Priya voted on Fuse",
+      "detail": "Voted for 👍 Submit Today",
+      "created_at": "2026-10-07T09:27:31.711Z"
+    },
+    {
+      "id": "act_1791365249511_x8sgav",
+      "user_id": "user_ananya",
+      "type": "vote",
+      "title": "Ananya voted on Fuse",
+      "detail": "Voted for 👍 Submit Today",
+      "created_at": "2026-10-07T09:27:29.511Z"
+    },
+    {
+      "id": "act_1791365247309_rsukog",
+      "user_id": "user_rahul",
+      "type": "vote",
+      "title": "Rahul voted on Fuse",
+      "detail": "Voted for 👍 Submit Today",
+      "created_at": "2026-10-07T09:27:27.309Z"
+    },
+    {
+      "id": "act_1791365245039_57kws4",
+      "user_id": "user_guhan",
+      "type": "fuse",
+      "title": "🔥 Message Fuse Initialized: Should we submit today?",
+      "detail": "10s Rapid Consensus Voting Window Open",
+      "created_at": "2026-10-07T09:27:25.039Z"
+    },
+    {
+      "id": "act_1791365240636_dc2dvm",
+      "user_id": "user_guhan",
+      "type": "whisper",
+      "title": "Guhan sent a private Whisper to Rahul",
+      "detail": "Stealth 1-on-1 encrypted channel within thread",
+      "created_at": "2026-10-07T09:27:20.636Z"
+    },
+    {
+      "id": "act_1791365237744_nlq4q6",
+      "user_id": "user_rahul",
+      "type": "task",
+      "title": "Task Created: Finish the PPT",
+      "detail": "Assigned to Rahul • Due Today, 6:00 PM",
+      "created_at": "2026-10-07T09:27:17.744Z"
+    },
+    {
+      "id": "act_1791365213998_l60496",
+      "user_id": "user_priya",
+      "type": "whisper",
+      "title": "Priya sent a private Whisper to Arjun",
+      "detail": "Stealth 1-on-1 encrypted channel within thread",
+      "created_at": "2026-10-07T09:26:53.998Z"
+    },
+    {
+      "id": "act_1791364937563_nilgx3",
+      "user_id": "system",
+      "type": "decision_locked",
+      "title": "🔥 DECISION LOCKED: ?? Submit Today",
+      "detail": "Consensus reached. Decision permanently locked into record.",
+      "created_at": "2026-10-07T09:22:17.563Z"
+    },
+    {
+      "id": "act_1791364903126_aam3ky",
+      "user_id": "user_ananya",
+      "type": "vote",
+      "title": "Ananya voted on Fuse",
+      "detail": "Voted for ?? Submit Today",
+      "created_at": "2026-10-07T09:21:43.126Z"
+    },
+    {
+      "id": "act_1791364903122_qshzqr",
+      "user_id": "user_rahul",
+      "type": "vote",
+      "title": "Rahul voted on Fuse",
+      "detail": "Voted for ?? Submit Today",
+      "created_at": "2026-10-07T09:21:43.122Z"
+    },
+    {
+      "id": "act_1791364903113_ak8wug",
+      "user_id": "user_guhan",
+      "type": "fuse",
+      "title": "🔥 Message Fuse Initialized: Should we submit today?",
+      "detail": "10s Rapid Consensus Voting Window Open",
+      "created_at": "2026-10-07T09:21:43.113Z"
+    },
+    {
+      "id": "act_1791364868655_v8ij6r",
+      "user_id": "user_guhan",
+      "type": "whisper",
+      "title": "Guhan sent a private Whisper to Rahul",
+      "detail": "Stealth 1-on-1 encrypted channel within thread",
+      "created_at": "2026-10-07T09:21:08.655Z"
+    },
+    {
+      "id": "act_1791364860041_ies7km",
+      "user_id": "user_rahul",
+      "type": "task",
+      "title": "Task Created: Finish the PPT",
+      "detail": "Assigned to Rahul • Due Today, 6:00 PM",
+      "created_at": "2026-10-07T09:21:00.041Z"
+    },
+    {
+      "id": "act_1",
+      "user_id": "user_guhan",
+      "type": "task",
+      "title": "Guhan assigned a task to Ananya",
+      "detail": "Finish the PPT deck before 6:00 PM",
+      "created_at": "2026-10-07T07:48:54.829Z"
+    },
+    {
+      "id": "act_2",
+      "user_id": "user_rahul",
+      "type": "decision_locked",
+      "title": "Project Alpha decision recorded",
+      "detail": "Adopt WebSocket for live updates",
+      "created_at": "2026-10-06T09:12:54.829Z"
+    }
+  ]
+}
