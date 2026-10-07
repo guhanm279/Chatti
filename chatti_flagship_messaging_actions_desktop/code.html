@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#003640", "on-tertiary-fixed-variant": "#653e00", "secondary-fixed": "#acedff", "surface-variant": "#31353f", "primary-fixed": "#e1e0ff", "surface-container-lowest": "#0a0e17", "surface-container-low": "#181b25", "error": "#ffb4ab", "on-tertiary": "#472a00", "inverse-on-surface": "#2c303a", "on-primary-fixed-variant": "#2f2ebe", "inverse-primary": "#494bd6", "tertiary-container": "#ca8100", "on-surface": "#dfe2ef", "secondary-fixed-dim": "#4cd7f6", "primary-container": "#8083ff", "outline": "#908fa0", "background": "#0f131c", "on-background": "#dfe2ef", "surface-container-highest": "#31353f", "on-secondary-container": "#00424e", "on-secondary-fixed-variant": "#004e5c", "on-tertiary-fixed": "#2a1700", "outline-variant": "#464554", "on-surface-variant": "#c7c4d7", "primary": "#c0c1ff", "surface-container": "#1c1f29", "secondary-container": "#03b5d3", "on-secondary-fixed": "#001f26", "surface-tint": "#c0c1ff", "on-primary": "#1000a9", "inverse-surface": "#dfe2ef", "on-primary-fixed": "#07006c", "on-error-container": "#ffdad6", "secondary": "#4cd7f6", "tertiary": "#ffb95f", "surface-bright": "#353943", "on-primary-container": "#0d0096", "on-tertiary-container": "#3e2400", "error-container": "#93000a", "primary-fixed-dim": "#c0c1ff", "surface-container-high": "#262a34", "tertiary-fixed": "#ffddb8", "surface-dim": "#0f131c", "on-error": "#690005", "surface": "#0f131c", "tertiary-fixed-dim": "#ffb95f" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.25rem", "margin-desktop": "2rem", "space-md": "0.75rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "margin": "1rem", "space-xl": "2rem", "gutter-desktop": "1.5rem", "gutter": "1rem" }, "fontFamily": { "display-lg": [ "Plus Jakarta Sans" ], "label-lg": [ "Inter" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "label-md": [ "Inter" ], "body-sm": [ "Inter" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-sm": [ "Inter" ], "headline-md": [ "Plus Jakarta Sans" ], "body-md": [ "Inter" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ] }, "fontSize": { "display-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "display-lg-mobile": [ "30px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "body-sm": [ "13px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-md": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-sm": [ "18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><aside class="fixed left-0 top-0 bottom-0 w-80 bg-surface-container-low z-40 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="p-space-lg flex flex-col gap-space-xs bg-surface-container-low"><div class="flex items-center gap-space-sm"><img alt="CHATTi Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VjvAXEjC2yDvxG4qxa68-c7K7ukEX056cCPeoRHe0B_YCRs7oc0WRda5tDWguYdOop5Mu7zMud0SglrK9eqyRmc8PPhzuGolI0IMmYQU3syHlKRo0kOkMACcZC3qrZT9n6JfsvE-EAURLMIGI253kbGx9IajEGWQPPjcFG6pOC8Wa1OTkMPxCCBnIaY9wsj_ss_fvLB-R38pwpA6bPBicGWbGSymTlka9SYk6cxyUmYw"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">CHATTi</span></div><p class="font-label-sm text-label-sm text-on-surface-variant">Turn conversations into actions</p></div><div class="px-space-lg pb-space-md"><div class="flex items-center gap-space-sm bg-surface-container px-space-md py-space-sm rounded-xl"><span class="material-symbols-outlined text-outline text-[18px]">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" placeholder="Search conversations..." type="text"/></div></div><nav class="px-space-md flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-md"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="chats" href="#"><span class="material-symbols-outlined text-[20px]">chat</span><span class="font-label-md text-label-md">Chats</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="communities" href="#"><span class="material-symbols-outlined text-[20px]">groups</span><span class="font-label-md text-label-md">Communities</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="actions-hub" href="#"><span class="material-symbols-outlined text-[20px]">auto_awesome</span><span class="font-label-md text-label-md">Actions</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="activity" href="#"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="font-label-md text-label-md">Activity</span></a></nav><div class="mt-space-lg px-space-lg flex-1 flex flex-col overflow-y-auto"><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-space-sm">Recent Chats</span><div class="flex flex-col gap-space-xs"><a class="flex items-center gap-space-md p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high transition-all" data-path="chat-project-alpha" href="#"><div class="relative flex-shrink-0 w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-label-md text-primary">PA<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-secondary ring-2 ring-surface-container"></span></div><div class="flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface truncate">Project Alpha</span><span class="font-label-sm text-label-sm text-outline">12:42</span></div><p class="font-body-sm text-body-sm text-secondary truncate">✨ 2 actions pending</p></div></a><a class="flex items-center gap-space-md p-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="chat-rahul" href="#"><div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-label-md text-on-surface-variant">R</div><div class="flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface truncate">Rahul</span><span class="font-label-sm text-label-sm text-outline">11:15</span></div><p class="font-body-sm text-body-sm text-outline truncate">Ready for the sprint sync?</p></div></a><a class="flex items-center gap-space-md p-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="chat-ananya" href="#"><div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-label-md text-on-surface-variant">A</div><div class="flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface truncate">Ananya</span><span class="font-label-sm text-label-sm text-outline">Yesterday</span></div><p class="font-body-sm text-body-sm text-outline truncate">Shared decision summary</p></div></a><a class="flex items-center gap-space-md p-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="chat-team-nexus" href="#"><div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-label-md text-on-surface-variant">TN</div><div class="flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface truncate">Team Nexus</span><span class="font-label-sm text-label-sm text-outline">Nov 12</span></div><p class="font-body-sm text-body-sm text-outline truncate">Q4 architecture roadmap</p></div></a></div></div></aside><div class="pl-80 pr-80 min-h-screen flex flex-col bg-background"><header class="fixed top-0 left-80 right-80 z-30 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.15)]"><div class="h-16 w-full px-space-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="CHATTi Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VjvAXEjC2yDvxG4qxa68-c7K7ukEX056cCPeoRHe0B_YCRs7oc0WRda5tDWguYdOop5Mu7zMud0SglrK9eqyRmc8PPhzuGolI0IMmYQU3syHlKRo0kOkMACcZC3qrZT9n6JfsvE-EAURLMIGI253kbGx9IajEGWQPPjcFG6pOC8Wa1OTkMPxCCBnIaY9wsj_ss_fvLB-R38pwpA6bPBicGWbGSymTlka9SYk6cxyUmYw"/><nav class="hidden sm:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-on-surface font-label-md rounded-lg"><a class="font-label-md text-label-md px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="chats" href="#">Direct</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="communities" href="#">Channels</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="actions-hub" href="#">Action Vault</a></nav></div><div class="flex items-center gap-space-md"><button class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">search</span></button><button class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">tune</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="relative w-full pt-16 flex-1 bg-background"><div class="flex flex-col w-full">
+<!-- Active Ambient Background Glows -->
+<div class="relative w-full overflow-hidden bg-background">
+<div class="absolute -top-32 left-1/4 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 right-12 w-80 h-80 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<!-- MAIN CHAT CANVAS & CONVERSATION VIEW -->
+<div class="flex flex-col w-full">
+<!-- TOP SUB-BAR: CONVERSATION META & HACKATHON DEMO CONTROLS -->
+<section class="sticky top-0 z-20 px-space-lg py-space-sm bg-surface-container-low/95 backdrop-blur-xl flex flex-wrap items-center justify-between gap-space-md shadow-sm">
+<!-- Title & Status -->
+<div class="flex items-center gap-space-md min-w-0">
+<div class="relative flex-shrink-0 w-11 h-11 rounded-2xl bg-gradient-to-br from-primary via-primary-container to-secondary-container flex items-center justify-center shadow-lg shadow-primary-container/20">
+<span class="font-headline-sm text-headline-sm text-on-primary font-bold">PA</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-secondary ring-2 ring-surface-container-low animate-pulse"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-sm">
+<h1 class="font-headline-sm text-headline-sm text-on-surface truncate">Project Alpha</h1>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Sprint 4</span>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="text-secondary font-medium">5 members</span>
+<span class="text-outline">•</span>
+<span>3 online</span>
+<span class="text-outline">•</span>
+<span class="text-primary flex items-center gap-0.5"><span class="material-symbols-outlined text-[13px]">bolt</span>Action Stream Active</span>
+</div>
+</div>
+</div>
+<!-- Right Toolbelt & Live Interactive Pills -->
+<div class="flex items-center gap-space-sm">
+<!-- Demo Flow Pill -->
+<div class="hidden xl:flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px] text-tertiary">rocket_launch</span>
+<span class="text-on-surface font-semibold">Demo Flow:</span>
+<span class="text-primary">60s Live Walkthrough</span>
+</div>
+<!-- Quick Action Buttons -->
+<div class="flex items-center gap-1 bg-surface-container px-1 py-1 rounded-xl">
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" title="Search thread" type="button">
+<span class="material-symbols-outlined text-[18px]">search</span>
+</button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-secondary hover:bg-secondary/10 transition-colors" title="Start Call" type="button">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" title="Group Details" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+</section>
+<!-- STREAM VALUE PROPOSITION BANNER -->
+<div class="mx-space-lg mt-space-md mb-space-xs p-space-sm px-space-md rounded-2xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-high flex items-center justify-between shadow-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-6 h-6 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[15px]">auto_awesome</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface">
+<span class="text-outline">Normal messaging:</span> Message → Reply.
+            <span class="text-secondary font-semibold ml-1">CHATTi Engine:</span> Message → Executable Action.
+          </span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-secondary font-label-sm text-label-sm font-semibold">Live Mode</span>
+</div>
+</div>
+<!-- MAIN SCROLLABLE STREAM AREA -->
+<div class="px-space-lg py-space-md flex flex-col gap-space-lg w-full max-w-4xl mx-auto pb-32">
+<!-- TIMELINE DIVIDER -->
+<div class="flex items-center justify-center gap-space-md my-space-xs">
+<div class="h-[1px] flex-1 bg-surface-container-high"></div>
+<span class="px-space-md py-0.5 rounded-full bg-surface-container text-outline font-label-sm text-label-sm uppercase tracking-wider">Today • 9:42 AM</span>
+<div class="h-[1px] flex-1 bg-surface-container-high"></div>
+</div>
+<!-- 1. EARLIER MESSAGE (GUHAN) -->
+<div class="flex items-start gap-space-md group">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest text-primary font-label-md text-label-md font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
+            G
+          </div>
+<div class="flex flex-col gap-1 max-w-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Guhan</span>
+<span class="font-label-sm text-label-sm text-outline">9:42 AM</span>
+</div>
+<div class="p-space-md rounded-2xl rounded-tl-sm bg-surface-container text-on-surface shadow-sm">
+<p class="font-body-md text-body-md">Should we submit the project today?</p>
+</div>
+</div>
+</div>
+<!-- 2. INBOUND REPLY WITH REACTION (RAHUL) -->
+<div class="flex items-start gap-space-md group">
+<div class="relative w-9 h-9 rounded-full bg-surface-container-high text-secondary font-label-md text-label-md font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
+            R
+            <span class="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-secondary ring-1 ring-background"></span>
+</div>
+<div class="flex flex-col gap-1 max-w-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Rahul</span>
+<span class="font-label-sm text-label-sm text-outline">9:45 AM</span>
+</div>
+<div class="relative p-space-md rounded-2xl rounded-tl-sm bg-surface-container text-on-surface shadow-sm">
+<p class="font-body-md text-body-md">I think we should submit today 👍</p>
+<!-- Reaction Pill -->
+<div class="absolute -bottom-2.5 right-3 flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm shadow-md cursor-pointer hover:scale-105 transition-transform">
+<span>👍</span>
+<span class="text-secondary font-semibold">3</span>
+</div>
+</div>
+</div>
+</div>
+<!-- ======================================================== -->
+<!-- FEATURE 1: ✨ MAGIC MESSAGE & TASK CREATED               -->
+<!-- ======================================================== -->
+<div class="flex flex-col gap-space-xs mt-space-sm">
+<div class="flex items-start gap-space-md group relative">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest text-primary font-label-md text-label-md font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
+              G
+            </div>
+<div class="flex flex-col gap-space-xs flex-1 max-w-2xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Guhan</span>
+<span class="font-label-sm text-label-sm text-outline">9:50 AM</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container/20 text-primary font-label-sm text-label-sm font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">auto_awesome</span> Magic Triggered
+                  </span>
+</div>
+<!-- Hover Floating Action Dock (Visible & Interactive) -->
+<div class="flex items-center gap-1 px-2 py-1 rounded-xl bg-surface-container-high/90 backdrop-blur-md shadow-lg">
+<button class="px-2 py-0.5 rounded-lg text-outline hover:text-tertiary font-label-sm text-label-sm flex items-center gap-1 hover:bg-surface-container transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">lock</span> Whisper
+                  </button>
+<button class="px-2.5 py-0.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span> Magic
+                  </button>
+<button class="px-2 py-0.5 rounded-lg text-outline hover:text-secondary font-label-sm text-label-sm flex items-center gap-1 hover:bg-surface-container transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> Fuse
+                  </button>
+</div>
+</div>
+<!-- Message Bubble -->
+<div class="p-space-md rounded-2xl rounded-tl-sm bg-surface-container text-on-surface shadow-md">
+<p class="font-body-md text-body-md leading-relaxed">
+                  Ananya, finish the PPT before 6 PM.
+                </p>
+</div>
+<!-- Glow Connector Node -->
+<div class="ml-6 flex items-center gap-2 py-1">
+<div class="w-0.5 h-6 bg-gradient-to-b from-primary to-secondary"></div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">alt_route</span>
+                  Parsed 1 autonomous commitment
+                </span>
+</div>
+<!-- THE TASK CREATED ARTIFACT CARD -->
+<div class="p-space-md rounded-2xl bg-surface-container-high shadow-xl relative overflow-hidden group/task">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-primary via-primary-container to-secondary"></div>
+<div class="flex flex-col gap-space-sm pl-2">
+<!-- Header Badge -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-primary font-semibold tracking-wide uppercase">
+<span class="material-symbols-outlined text-[16px]">task_alt</span>
+<span>Task Created • From Conversation</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/20 text-tertiary font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Pending
+                    </span>
+</div>
+<!-- Task Title & Scope -->
+<div class="flex flex-col gap-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Finish the PPT</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Presentation deck for final evaluation sync and team alignment.</p>
+</div>
+<!-- Metadata Pills and Action CTA -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-space-xs">
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Assignee Pill -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm">
+<div class="w-4 h-4 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-[10px]">A</div>
+<span>Ananya</span>
+</div>
+<!-- Due Date Pill -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]">schedule</span>
+<span>Today, 6:00 PM</span>
+</div>
+</div>
+<!-- Complete Action CTA -->
+<button class="px-space-md py-1.5 rounded-xl bg-primary text-on-primary hover:bg-primary-fixed font-label-md text-label-md font-semibold flex items-center gap-1 shadow-md shadow-primary-container/20 transition-all cursor-pointer" id="task-action-btn" onclick="this.innerHTML='&lt;span class=\'material-symbols-outlined text-[16px]\'&gt;check&lt;/span&gt; Completed'; this.className='px-space-md py-1.5 rounded-xl bg-secondary text-on-secondary font-label-md text-label-md font-semibold flex items-center gap-1 shadow-sm';" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                      Mark Complete
+                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ======================================================== -->
+<!-- FEATURE 2: 🔒 WHISPER (PRIVATE MESSAGE IN GROUP)          -->
+<!-- ======================================================== -->
+<div class="flex flex-col gap-space-md mt-space-sm">
+<!-- Perspective A: What other group members see (Stealth notification) -->
+<div class="flex items-center justify-center">
+<div class="flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container text-on-surface-variant shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[16px]">lock</span>
+<span class="font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">Guhan</span> sent a private <span class="text-tertiary font-semibold">Whisper</span> to <span class="text-on-surface font-medium">Rahul</span>
+</span>
+<span class="font-label-sm text-label-sm text-outline">• 9:54 AM</span>
+</div>
+</div>
+<!-- Perspective B: Direct Recipient Rahul's Illuminated Decoded Whisper -->
+<div class="flex items-start gap-space-md group">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest text-tertiary font-label-md text-label-md font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
+              G
+            </div>
+<div class="flex flex-col gap-1 max-w-xl flex-1">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Guhan</span>
+<span class="font-label-sm text-label-sm text-outline">9:54 AM</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary/15 text-tertiary font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">visibility_lock</span> P2P Whisper
+                </span>
+</div>
+<!-- Glowing Whisper Box -->
+<div class="p-space-md rounded-2xl rounded-tl-sm bg-gradient-to-br from-surface-container-high to-surface-container shadow-xl relative overflow-hidden">
+<div class="absolute inset-0 bg-tertiary/5 pointer-events-none"></div>
+<div class="flex items-start justify-between gap-space-sm mb-1.5">
+<div class="flex items-center gap-1.5 text-tertiary font-label-sm text-label-sm font-bold uppercase tracking-wide">
+<span class="material-symbols-outlined text-[15px]">lock</span>
+<span>Private Whisper • Visible only to you &amp; Guhan</span>
+</div>
+<span class="material-symbols-outlined text-outline hover:text-on-surface text-[16px] cursor-pointer" title="Self-destruct timer: Active">timer</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium italic">
+                  “Rahul, come 15 minutes early.”
+                </p>
+</div>
+</div>
+</div>
+<!-- Whisper Sender Simulator (Interactive Overlay Card) -->
+<div class="mx-auto w-full max-w-xl p-space-md rounded-2xl bg-surface-container-low shadow-xl">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified_user</span>
+<span>Send Stealth Whisper</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Send privately inside channel</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm py-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target Member:</span>
+<label class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm cursor-pointer hover:bg-surface-container-highest transition-colors">
+<input checked="" class="accent-tertiary" name="whisper-recipient" type="radio"/>
+<span>Rahul (Tech Lead)</span>
+</label>
+<label class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm cursor-pointer hover:bg-surface-container-highest transition-colors">
+<input class="accent-tertiary" name="whisper-recipient" type="radio"/>
+<span>Ananya (Design)</span>
+</label>
+<label class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm cursor-pointer hover:bg-surface-container-highest transition-colors">
+<input class="accent-tertiary" name="whisper-recipient" type="radio"/>
+<span>Guhan (Product)</span>
+</label>
+</div>
+<div class="mt-space-sm flex items-center justify-between gap-space-md">
+<span class="font-body-sm text-body-sm text-outline italic">End-to-end encrypted in-thread tunnel</span>
+<button class="px-space-md py-1 rounded-xl bg-tertiary text-on-tertiary font-label-md text-label-md font-semibold hover:brightness-110 transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">send</span> Send Whisper
+              </button>
+</div>
+</div>
+</div>
+<!-- ======================================================== -->
+<!-- FEATURE 3: 🔥 MESSAGE FUSE & RAPID DECISION               -->
+<!-- ======================================================== -->
+<div class="flex flex-col gap-space-lg mt-space-sm">
+<!-- Trigger Question -->
+<div class="flex items-start gap-space-md group">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest text-primary font-label-md text-label-md font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
+              G
+            </div>
+<div class="flex flex-col gap-1 max-w-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Guhan</span>
+<span class="font-label-sm text-label-sm text-outline">10:00 AM</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">bolt</span> Fuse Initialized
+                </span>
+</div>
+<div class="p-space-md rounded-2xl rounded-tl-sm bg-surface-container text-on-surface shadow-sm">
+<p class="font-body-md text-body-md">Should we submit today?</p>
+</div>
+</div>
+</div>
+<!-- THE LIVE 10s FUSE VOTING CARD -->
+<div class="ml-12 p-space-lg rounded-2xl bg-surface-container-high shadow-2xl relative overflow-hidden">
+<!-- Pulsing Accent Beam -->
+<div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary via-primary to-tertiary animate-pulse"></div>
+<div class="flex flex-col gap-space-md">
+<!-- Fuse Header & Timer -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[18px]">local_fire_department</span>
+<span>Message Fuse • 10s Rapid Consensus</span>
+</div>
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-error-container/40 text-error font-label-sm text-label-sm font-bold animate-pulse">
+<span class="material-symbols-outlined text-[15px]">hourglass_bottom</span>
+<span>03s remaining</span>
+</div>
+</div>
+<!-- Poll Core Question -->
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">
+                Should we submit the project today?
+              </h3>
+<!-- Interactive Voting Option 1 (Leading) -->
+<div class="flex flex-col gap-1.5 p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-highest cursor-pointer transition-colors">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface font-semibold flex items-center gap-2">
+<span class="text-secondary font-bold">✓</span>
+                    Submit Today
+                  </span>
+<span class="text-secondary font-bold">7 votes • 70%</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full rounded-full bg-gradient-to-r from-secondary to-primary transition-all duration-500" style="width: 70%"></div>
+</div>
+</div>
+<!-- Interactive Voting Option 2 -->
+<div class="flex flex-col gap-1.5 p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-highest cursor-pointer transition-colors">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface-variant flex items-center gap-2">
+<span class="text-outline">•</span>
+                    Tomorrow
+                  </span>
+<span class="text-outline">3 votes • 30%</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full rounded-full bg-outline-variant/60 transition-all duration-500" style="width: 30%"></div>
+</div>
+</div>
+<!-- Fuse Footer Info -->
+<div class="flex items-center justify-between pt-space-xs font-label-sm text-label-sm text-outline">
+<div class="flex items-center -space-x-1.5">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary text-[10px] font-bold ring-2 ring-surface-container-high">G</div>
+<div class="w-6 h-6 rounded-full bg-secondary flex items-center justify-center text-on-secondary text-[10px] font-bold ring-2 ring-surface-container-high">R</div>
+<div class="w-6 h-6 rounded-full bg-tertiary flex items-center justify-center text-on-tertiary text-[10px] font-bold ring-2 ring-surface-container-high">A</div>
+<div class="w-6 h-6 rounded-full bg-surface-bright flex items-center justify-center text-on-surface text-[10px] font-bold ring-2 ring-surface-container-high">+7</div>
+</div>
+<span>Auto-executes upon timer expiry</span>
+</div>
+</div>
+</div>
+<!-- THE DECISION LOCKED STATE (Permanent Record) -->
+<div class="ml-12 p-space-md rounded-2xl bg-surface-container shadow-lg flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/20 text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Decision Locked</span>
+<span class="font-label-sm text-label-sm text-outline">• 10:00:10 AM</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate">Outcome: Submit Today</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">7 / 10 votes (70%) • Absolute Team Consensus Reached</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm flex-shrink-0">
+<span class="hidden sm:inline-flex px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">inventory_2</span> Archived to Vault
+              </span>
+<button class="w-8 h-8 rounded-lg bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+<!-- READ RECEIPTS TICK -->
+<div class="flex items-center justify-end gap-1 font-label-sm text-label-sm text-secondary pt-space-xs">
+<span class="material-symbols-outlined text-[16px]">done_all</span>
+<span>Delivered &amp; Synchronized with Vault</span>
+</div>
+</div>
+<!-- ======================================================== -->
+<!-- 3. COMPOSER: FLOATING MULTI-ACTION INPUT DOCK             -->
+<!-- ======================================================== -->
+<footer class="fixed bottom-3 left-80 right-80 z-30 px-space-lg pointer-events-none">
+<div class="max-w-4xl mx-auto pointer-events-auto">
+<!-- Quick Action Drawer Hints -->
+<div class="mb-1.5 flex items-center justify-between px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Triggers:</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-primary font-label-sm text-label-sm">/magic • Task</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-secondary font-label-sm text-label-sm">/fuse • Rapid Poll</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-tertiary font-label-sm text-label-sm">/whisper • Stealth</span>
+</div>
+<span class="hidden sm:inline font-label-sm text-label-sm text-outline">Press Enter to send</span>
+</div>
+<!-- Main Input Bubble -->
+<div class="p-2 rounded-2xl bg-surface-container-low/95 backdrop-blur-2xl shadow-2xl flex items-center gap-space-sm">
+<!-- Left Accessories -->
+<div class="flex items-center gap-0.5 pl-1">
+<button class="w-9 h-9 rounded-xl flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container transition-colors" title="Insert Emoji" type="button">
+<span class="material-symbols-outlined text-[20px]">sentiment_satisfied</span>
+</button>
+<button class="w-9 h-9 rounded-xl flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container transition-colors" title="Attach file or spec" type="button">
+<span class="material-symbols-outlined text-[20px]">attach_file</span>
+</button>
+<button class="w-9 h-9 rounded-xl flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container transition-colors" title="Voice Note" type="button">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+</div>
+<!-- CHATTI MODE SHORTCUT PILLS -->
+<div class="hidden sm:flex items-center gap-1 bg-surface-container px-1 py-1 rounded-xl">
+<button class="px-2.5 py-1 rounded-lg text-tertiary hover:bg-tertiary/10 font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" title="Compose Stealth Whisper" type="button">
+<span class="material-symbols-outlined text-[15px]">lock</span>
+<span>Whisper</span>
+</button>
+<button class="px-2.5 py-1 rounded-lg text-primary hover:bg-primary/10 font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" title="Trigger Magic AI Extraction" type="button">
+<span class="material-symbols-outlined text-[15px]">auto_awesome</span>
+<span>Magic</span>
+</button>
+</div>
+<!-- Text Input Field -->
+<div class="flex-1 min-w-0 px-2">
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="message-input" placeholder="Type a message in Project Alpha... (Type /magic or /fuse)" type="text"/>
+</div>
+<!-- Send Action Capsule -->
+<button class="px-space-md py-2.5 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary font-label-md text-label-md font-semibold flex items-center gap-1.5 shadow-lg shadow-primary-container/25 hover:brightness-110 active:scale-95 transition-all cursor-pointer flex-shrink-0" id="send-message-btn" onclick="const inp=document.getElementById('message-input'); if(inp.value.trim()){ inp.value=''; }" type="button">
+<span>Send</span>
+<span class="material-symbols-outlined text-[16px]">send</span>
+</button>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div></main></div><aside class="fixed right-0 top-0 bottom-0 w-80 bg-surface-container-low z-40 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 px-space-lg flex items-center justify-between bg-surface-container-low"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-tertiary text-[20px]">bolt</span><span class="font-headline-sm text-headline-sm text-on-surface">CHATTi Actions</span></div><span class="material-symbols-outlined text-outline text-[18px]">more_vert</span></div><div class="flex-1 p-space-lg overflow-y-auto flex flex-col gap-space-xl"><section class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">My Tasks</span><span class="font-label-sm text-label-sm text-secondary bg-surface-container px-space-sm py-space-xs rounded-full">3 open</span></div><div class="flex flex-col gap-space-sm"><div class="p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-space-xs"><div class="flex items-start justify-between gap-space-xs"><span class="font-label-md text-label-md text-on-surface">Review API payload specs</span><span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span></div><span class="font-label-sm text-label-sm text-outline">Project Alpha • Due Today</span></div><div class="p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-space-xs"><div class="flex items-start justify-between gap-space-xs"><span class="font-label-md text-label-md text-on-surface">Approve architecture schema</span><span class="material-symbols-outlined text-outline text-[16px]">radio_button_unchecked</span></div><span class="font-label-sm text-label-sm text-outline">Team Nexus • Tomorrow</span></div></div></section><section class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Decision Records</span><span class="font-label-sm text-label-sm text-outline">Latest</span></div><div class="flex flex-col gap-space-sm"><div class="p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface">Adopt WebSocket for live updates</span><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-tertiary"><span class="material-symbols-outlined text-[14px]">verified</span><span>Approved by Core Lead</span></div></div><div class="p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface">Postpone sync migration to Q1</span><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-outline"><span class="material-symbols-outlined text-[14px]">schedule</span><span>Recorded yesterday</span></div></div></div></section></div></aside></body></html>
